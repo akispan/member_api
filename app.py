@@ -102,4 +102,4 @@ def  delete_member(member_id):
 	return jsonify({'members' : 'The member has been deleted!'})
 
 if __name__ == '__main__':
-	appp.run(debug=True)
+	appp.run(host="0.0.0.0", port=5000)
